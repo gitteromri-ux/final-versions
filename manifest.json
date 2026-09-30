@@ -1,13 +1,23 @@
 [
  {
+  "file": "ad1-man42__1x1__60.mp4",
+  "slug": "ad1-man42",
+  "fmt": "1x1",
+  "dur": "60",
+  "duration": 59.1,
+  "size": 23567873,
+  "lufs": -14.17,
+  "true_peak": -2.25
+ },
+ {
   "file": "ad1-man42__4x5__60.mp4",
   "slug": "ad1-man42",
   "fmt": "4x5",
   "dur": "60",
   "duration": 59.1,
-  "size": 28187459,
-  "lufs": -14.08,
-  "true_peak": -1.84
+  "size": 28190387,
+  "lufs": -14.17,
+  "true_peak": -2.25
  },
  {
   "file": "ad1-man42__9x16__60.mp4",
@@ -58,6 +68,16 @@
   "size": 41935335,
   "lufs": -13.9,
   "true_peak": -1.8
+ },
+ {
+  "file": "ad3-woman51__4x5__60.mp4",
+  "slug": "ad3-woman51",
+  "fmt": "4x5",
+  "dur": "60",
+  "duration": 59.8,
+  "size": 31418005,
+  "lufs": -14.44,
+  "true_peak": -2.03
  },
  {
   "file": "ad3-woman51__9x16__60.mp4",
