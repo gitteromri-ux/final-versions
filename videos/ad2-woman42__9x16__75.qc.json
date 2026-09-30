@@ -1,0 +1,20 @@
+{
+ "file": "ad2-woman42__9x16__75.mp4",
+ "duration": 67.433,
+ "lufs": -13.9,
+ "true_peak": -1.8,
+ "lang": "en",
+ "lang_prob": 1,
+ "transcript": "People born the same year can be 33 years apart in biological age. 954 38-year-old New Zealandans were tested to measure how old their bodies actually were. The youngest in the room was 28. The oldest, 61. Same birth year, 33 years apart. That gap is why I'm going to the Longevity Masterclass of the year on October 27th. Everyone is talking about longevity right now, and almost nobody can prove it. Julie Gibson Clark can. In 2023, she was the second slowest aging person on Earth, ahead of Brian Johnson and his $2 million a year. She spends about $100 a month. Her body ages six and a half years every decade, single mom with a full-time job. She's one of the founding teachers at Longevity Life Academy, and she's teaching her exact protocol live on Zoom for one hour. VIP stays for a private Q &A about your own goals. $49. I'm in.",
+ "captions_matched": "55/55",
+ "caption_max_onset_offset_s": 0.49,
+ "video": "h264 High 1080x1920 30/1 yuv420p",
+ "audio": "aac 48000Hz 2ch",
+ "issues": [
+  "SYNC? 26.01 'EVERYONE IS' -> 25.52",
+  "SYNC? 31.39 'IN  2023,' -> 31.84"
+ ],
+ "frame_tile": "/home/user/workspace/ugc-prod-dur/build/ad2-woman42__75/tile.jpg",
+ "notes": "",
+ "verified_by": "subagent '45 s and 75 s cuts' (ugc-prod-dur pipeline): ffprobe, ebur128, faster-whisper small.en, caption alignment, frame tile eyeballed"
+}
