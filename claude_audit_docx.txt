@@ -1,0 +1,237 @@
+Julie Masterclass Video Audit — UGC Ads + Film
+
+Sep 30, 2026 · @Omri
+
+Summary
+
+None of the three videos is ready to go live. The two UGC ads score 5/10 each and are about 3 hours of editing from 8/10. The film scores 5/10 as the landing-page hero and 3/10 as a paid ad.
+
+  ----------------------------------------------------------------------------------------------
+  Asset                          Length            Readiness now           After P0 + P1 fixes
+  ------------------------------ ----------------- ----------------------- ---------------------
+  UGC Ad 1 · Man, 42             1:00 · 9:16       5/10                    ~8/10
+
+  UGC Ad 2 · Woman, 42           1:01 · 9:16       5/10                    ~8/10
+
+  Julie film, masterclass edit   2:19 · 16:9       5/10 hero · 3/10 paid   ~8/10 hero
+  ----------------------------------------------------------------------------------------------
+
+Problem shared by all three: the press-card collage uses fake article mock-ups that copy real outlets' branding with invented headlines. This is the first thing to fix.
+
+Fastest path to live: replace the press cards with real article screenshots in all three videos, then do the P0 edits on the two UGC ads, which can run this week. The film works as the landing-page hero once its P0 items are fixed. For paid use, cut a 30–45 s version with the dates and price on screen.
+
+Audit method and limits: every video was checked frame by frame at 1 fps, with 4 fps on key moments, against the live masterclass page (dates, prices, claims, wording). Loudness was measured. The audio could not be transcribed, so the ads were checked against the transcripts in ads.json and the burned-in captions. The film's voice-over was not heard and needs a listen (see Film P1-8).
+
+UGC Ad 1 (Man, 42) and Ad 2 (Woman, 42)
+
+Both ads use the same script and structure, so one list covers both. Items that apply to one ad only are marked.
+
+P0 — must fix before going live
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #                 Issue                                                                                                                                                                                                                                                                                                                                     Where              Fix
+  ----------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------ ------------------------------------------------------------------------------------------------------------------------------
+  1                 Fake press cards. They copy the look of Business Insider, Daily Mail, NOVOS and NAD.com with invented headlines and a "Longevity Life Academy" footer. Some of the women shown are not Julie. One card says "sets aside $12 a day" (about $360/month), which contradicts the "$100 a month" said 5 s later. Legal and Meta-policy risk.   0:28–0:30, both    Replace with real article screenshots from the site's press section (Fortune, Business Insider, AS, Yahoo Finance, AP).
+
+  2                 The first second is a logo on black, which wastes the hook.                                                                                                                                                                                                                                                                               0:00, both         Open on the face; move the logo to the end card.
+
+  3                 The end-card URL longevitylifeacademy.com/julie-masterclass is not in our repo, and people will type what they see.                                                                                                                                                                                                                       0:58–1:00, both    Confirm it loads the masterclass page before launch.
+
+  4                 "$49. I'm in." comes right after the VIP line, so it sounds like VIP costs $49 (VIP is $79).                                                                                                                                                                                                                                              ~0:51–0:53, both   Say "Seats from $49" as the site does, or put the price before the VIP line.
+
+  5                 A synthetic person saying "I'm going" is a consumer endorsement from someone who doesn't exist. The FTC fake-testimonial rule and Meta's AI-disclosure rules apply.                                                                                                                                                                       Whole ad, both     Your call, but make it deliberately: add an AI-content disclosure, or frame the ad so it isn't presented as a real attendee.
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+P1 — fix before scaling spend
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #                 Issue                                                                                                                                                                                         Where                              Fix
+  ----------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------- ---------------------------------------------------------------------------------------
+  6                 The CTA is on screen for about 1.5 s. A grey swirl logo animation fills 0:54–0:56, and Ad 2 adds a black "by eTeacher Group" card. The button appears at 0:58.5 and the video ends at 1:00.   0:54–1:00, both                    Cut the swirl and hold the end card for at least 3 s.
+
+  7                 The caption "954 38 YEAR OLD" can't be read.                                                                                                                                                  0:06–0:07, both                    Change to "954 PEOPLE · ALL AGE 38".
+
+  8                 Her face changes visibly at the 30 s join. Sharpness drops by half (26 → 13) and her forehead lines disappear because the 480p extension was upscaled.                                        0:30 onward, Ad 2 only             Regenerate the second half at 720p, or cut away to press/Zoom B-roll across the join.
+
+  9                 Captions stack two lines during crossfades: "PEOPLE BORN THE" under "SAME YEAR CAN" and a ghost "IN THE ROOM" in Ad 2; the same around "CAN PROVE IT" / "CAN." in Ad 1.                       Ad 2 0:02, 0:12 · Ad 1 0:25–0:27   Use hard cuts between caption chunks.
+
+  10                "She's at Longevity Life Academy" is awkward. It's the leftover from the jump-cut fix.                                                                                                        ~0:42, Ad 1 only                   Re-voice as "She's Founding Faculty at Longevity Life Academy", or use Ad 2's line.
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+P2 — polish
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #                 Issue                                                                                                                                Where                                 Fix
+  ----------------- ------------------------------------------------------------------------------------------------------------------------------------ ------------------------------------- ------------------------------------------------------------------------
+  11                "Six and a half years every decade" doesn't match the site ("8 months a year" and "She ages six").                                   ~0:37–0:39, both                      Use one number in every asset; "eight months a year" matches the page.
+
+  12                "Second slowest aging person on earth" has no qualifier. The site footer hedges this claim.                                          ~0:29–0:31, both                      Add "on the Rejuvenation Olympics leaderboard".
+
+  13                The top strap "THE LONGEVITY MASTERCLASS OF THE YEAR" is tiny, sits in the Reels/TikTok top UI area, and fades in and out at cuts.   Whole ad, flickers at 0:45 and 0:51   Make it bigger, move it lower, keep it steady.
+
+  14                The pinch gesture on "single mom" reads as "tiny".                                                                                   0:40, Ad 1 only                       Cut the gesture or cover it with B-roll.
+
+  15                The button says "SIGN UP NOW" but the site says "Enroll now" and "Reserve my seat".                                                  End card, both                        Use the site wording.
+
+  16                Both ads have the same script, so the only A/B variable is the actor.                                                                —                                     Give one ad a different hook for a real test.
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+UGC ad scores
+
+Both ads score 5/10 overall. Claims and compliance are the weakest area (3/10), because of the fake press cards and the AI-endorsement question.
+
+  -----------------------------------------------------------------------------------------------------------------------------------------------
+  Metric                  Ad 1 Man          Ad 2 Woman        Why
+  ----------------------- ----------------- ----------------- -----------------------------------------------------------------------------------
+  Hook (first 2 s)        5                 5                 Opens on a logo; the stat hook itself is strong.
+
+  Script / copy           7                 8                 Accurate Dunedin stat; Ad 1 has the awkward "She's at" line.
+
+  Claims and compliance   3                 3                 Fake press cards; unqualified #2 claim; AI endorser.
+
+  Captions                6                 5                 Unreadable "954 38"; double lines at crossfades.
+
+  AI realism / talent     8                 6                 Ad 2 changes visibly at the 30 s join.
+
+  Pacing / structure      6                 6                 3 s of logo animation before the end card.
+
+  Offer / CTA             5                 5                 Dates and prices are correct, but the CTA shows for ~1.5 s; $49/VIP is ambiguous.
+
+  Audio loudness          8                 8                 −14.2 / −13.6 LUFS, on target for social.
+
+  Brand consistency       7                 7                 "Sign up now" vs the site's "Enroll now".
+
+  Overall readiness       5                 5                 ~8 after the P0 + P1 fixes.
+  -----------------------------------------------------------------------------------------------------------------------------------------------
+
+Julie film — masterclass edit (2:19, 16:9)
+
+The film's craft is strong, but the offer is nearly invisible: the dates Oct 27 and Nov 14 never appear, and the end card has no price, dates or URL.
+
+P0 — must fix before going live
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #                 Issue                                                                                                                                                                          Where             Fix
+  ----------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ----------------- -------------------------------------------------------------------------------------
+  1                 The same fake press cards as in the UGC ads.                                                                                                                                   0:09–0:12         Replace with real article screenshots.
+
+  2                 The offer card "60 · Minutes live / Two dates. / From $49." is small serif text in the bottom-left corner over a busy arm shot. The dates never appear anywhere in the film.   2:01–2:03         Full-frame offer card: Tue Oct 27 · 7 PM ET / Sat Nov 14 · 1 PM ET · $49 · VIP $79.
+
+  3                 The phone screen shows AI gibberish in close-up ("Pngv RL", "Biraynt gilanser").                                                                                               1:47–1:48         Blur the screen or composite a real UI.
+
+  4                 The Trustpilot "Excellent" badge is eTeacher Group's rating, shown under the LLA logo with no label. The site labels it correctly.                                             2:12–2:18         Label it "eTeacher Group on Trustpilot" or remove it.
+
+  5                 "As seen on" includes MarketWatch, which is not in our press list. The July 2026 coverage is mostly syndicated press releases.                                                 1:35–1:40         Confirm MarketWatch and USA Today coverage or remove those logos.
+
+  6                 The end card is only the logo, a tiny ENROLL NOW button and the Trustpilot badge.                                                                                              2:12–2:18         Add the price, dates and URL, and make the button bigger.
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+P1 — fix before paid use
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #                 Issue                                                                                                                                                                                  Where                                           Fix
+  ----------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------- -----------------------------------------------------------------------------------------------------
+  7                 The masterclass title sits on the Blueprint faculty page: four other teachers, and a mouse cursor covering "Clark". It reads as a multi-teacher course.                                1:54–1:56                                       Crop to Julie's card only and remove the cursor.
+
+  8                 Leftover Blueprint content: the "healthspan and longevity course" search shot, "4 systems vs 6 things", and the generic 9-person grid. Julie's spoken lines were not checked by ear.   1:10–1:12, 1:33, 1:42 · VO at 1:27, 2:04–2:07   Listen to her lines for any mention of the course, 18 lessons or pillars; trim the Blueprint shots.
+
+  9                 The toothbrush B-roll shows a different, older-looking woman. Viewers will read her as Julie, which undermines "ages slower".                                                          0:54–0:56                                       Replace with Julie or a hands-only shot.
+
+  10                The kinetic captions "RUNS OUT", "TANK" and "EMPTIES" are navy on a dark background and can't be read.                                                                                 0:24–0:30                                       Make them white or gold.
+
+  11                The logo swirl plus the eTeacher card add 4 s of dead air before the end card.                                                                                                         2:08–2:11                                       Cut to 1 s or remove.
+
+  12                Loudness is −18 LUFS: fine on the page, too quiet for social.                                                                                                                          Whole film                                      Export a −14 LUFS version for ads.
+
+  13                "33.5% slower" doesn't match the site's "34% slower".                                                                                                                                  0:17, 0:40                                      Pick one number for all assets.
+
+  14                The light burst over Julie in the new Zoom scene looks like it lasts ~3 s, not the 0.5 s logged in QC.                                                                                 1:50–1:52                                       Check it; trim or cover it if it is the burst and not the transition swoosh.
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Film scores
+
+The film scores 5/10 as the landing-page hero and 3/10 as a paid ad. Offer clarity and compliance (3/10 each) hold it back.
+
+  -----------------------------------------------------------------------------------------------------------------------------------
+  Metric                              Score                   Why
+  ----------------------------------- ----------------------- -----------------------------------------------------------------------
+  Story / pacing                      6                       Strong arc, but 2:19 is long for paid and has 4 s of logo dead air.
+
+  Visual craft / motion design        8                       Data-viz scenes and typography are premium.
+
+  AI artifacts                        5                       Gibberish phone UI, stand-in toothbrush woman, light burst.
+
+  On-screen copy accuracy             6                       33.5% vs 34%; Blueprint leftovers.
+
+  Offer clarity (dates, price, CTA)   3                       No dates, a tiny offer card, and an end card with no price or URL.
+
+  Claims and compliance               3                       Fake press cards, unlabeled Trustpilot badge, unverified MarketWatch.
+
+  Audio                               6                       −18 LUFS; the voice-over was not checked by ear.
+
+  Masterclass consistency             5                       Faculty page, "course" search shot, 9-person grid.
+
+  Overall — landing-page hero         5                       ~8 after the P0 fixes.
+
+  Overall — paid ad                   3                       Needs a 30–45 s cut with dates and price on screen.
+  -----------------------------------------------------------------------------------------------------------------------------------
+
+Editor checklist
+
+Work top to bottom. The first block unlocks the UGC launch.
+
+Before launch — all videos
+
+- ☐ Replace the fake press collage with real article screenshots (UGC 0:28–0:30, film 0:09–0:12)
+
+- ☐ Confirm longevitylifeacademy.com/julie-masterclass loads the masterclass page
+
+- ☐ Decide on an AI-content disclosure for the UGC ads
+
+UGC ads
+
+- ☐ Remove the 0:00 logo frame; open on the face
+
+- ☐ Cut the 0:54–0:56 swirl (and Ad 2's eTeacher card); hold the end card for 3 s or more
+
+- ☐ Fix "$49. I'm in." → "Seats from $49"
+
+- ☐ Change the caption to "954 PEOPLE · ALL AGE 38"
+
+- ☐ Hard cuts between caption chunks (no stacked lines)
+
+- ☐ Ad 2: fix the 30 s quality drop
+
+- ☐ Ad 1: re-voice "She's at Longevity Life Academy"
+
+- ☐ Unify "6.5 years per decade" with the site's "8 months a year"
+
+- ☐ Add "on the Rejuvenation Olympics leaderboard"
+
+- ☐ Enlarge, lower and steady the top strap; change "Sign up now" to "Enroll now"
+
+Film
+
+- ☐ Full-frame offer card with both dates, $49 and VIP $79 (2:01)
+
+- ☐ End card: add price, dates and URL; label or remove Trustpilot
+
+- ☐ Blur or replace the gibberish phone UI (1:47–1:48)
+
+- ☐ Verify or remove MarketWatch and USA Today in "As seen on"
+
+- ☐ Crop the faculty page to Julie only, and remove the cursor (1:54–1:56)
+
+- ☐ Listen to Julie's lines at 1:27 and 2:04–2:07 for Blueprint references
+
+- ☐ Replace the toothbrush B-roll (0:54–0:56)
+
+- ☐ Recolor the navy kinetic captions (0:24–0:30)
+
+- ☐ Trim the 2:08–2:11 logo dead air
+
+- ☐ Unify 33.5% vs 34%
+
+- ☐ Check the Zoom-scene light burst (1:50–1:52)
+
+- ☐ Export a −14 LUFS social version and a 30–45 s paid cut
