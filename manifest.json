@@ -1,5 +1,15 @@
 [
  {
+  "file": "ad1-man42__4x5__60.mp4",
+  "slug": "ad1-man42",
+  "fmt": "4x5",
+  "dur": "60",
+  "duration": 59.1,
+  "size": 28187459,
+  "lufs": -14.08,
+  "true_peak": -1.84
+ },
+ {
   "file": "ad1-man42__9x16__60.mp4",
   "slug": "ad1-man42",
   "fmt": "9x16",
