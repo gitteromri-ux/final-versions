@@ -8,6 +8,7 @@ Status: DRAFT FOR OMRI'S APPROVAL. Nothing here is uploaded or changed in Ads Ma
 - These are NEW ADS ONLY, added to the existing standard-video test ad set **03**. No new campaign, no new ad set, no edits to ad set 03 settings.
 - Every ad is created as "Create new ad" inside ad set 03, status **Paused** until Omri approves.
 - No purchases, no new tools. Label claims VERIFIED / ASSUMED.
+- VERIFIED from handover-master `_today-log.md` (2026-09-30 19:40 IDT): ad set 03 is now Highest volume, 35–65+, broad, **Facebook feed + Facebook reels overlay only**, and the standing rule is **NO edit of any kind on sets 01/03 until 7 Oct 19:40 IDT except pausing an ad with Omri's approval**. Adding new ads to set 03 counts as an edit under that rule → needs Omri's explicit lift. With the current placement set, only the **4x5** (feed) and **9x16** (reels overlay) files will actually serve; 1x1/16x9 are prepared for later use only.
 
 ## 1. Destination
 
