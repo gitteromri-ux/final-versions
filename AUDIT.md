@@ -90,3 +90,38 @@ Score movement (my estimate on Claude's scale): Ad1 v5 ≈ 6/10, Ad2 v7 ≈ 5.5/
 7. Ear-check: "New Zealandans" (Ad2/Ad3), "Thank you for watching" tail, 1.12× pacing.
 8. Ad2: cover the 24.5 s seam; true peak −1.4 dBTP also fails there.
 9. Then the 45/75 s cuts and 4x5/1x1/16x9 (row 21) with the same checks per file.
+
+---
+# v8 RE-CHECK (2026-09-30 19:25 UTC) — `final-versions/videos/*__9x16__60.mp4`
+Evidence: `audit_ad{1,2,3}_v8.log` (LANG en 1.0, transcript = script; 54/58, 55/57, 53/58 captions matched — the "unmatched" lines are spelling normalisations 38-YEAR-OLD / ZEALANDERS / MASTERCLASS / BRYAN / FULL-TIME, all present on screen), my ebur128, tiles `audit_frames/v8_*.png`.
+Measured: ad1 59.10 s · −14.3 LUFS · TP −2.8 | ad2 59.10 s · −14.0 · TP −2.9 | ad3 59.80 s · −14.6 · TP −2.8. Sizes local = live (36247752 / 39602281 / 38993312 bytes, HTTP 200 for index and all three mp4s at https://gitteromri-ux.github.io/final-versions/).
+
+| Row | Item | v5–v7 | v8 | Evidence |
+|---|---|---|---|---|
+| A-2 | Opener wording / "Zealandans" voice (ad2, ad3) | PARTIAL | PARTIAL (unchanged) | audit_ad2/3_v8 still transcribe "New Zealandans"; captions correct. Ear check still owed. |
+| A-3 | "Masterclass of the Year" visible early / strap | PARTIAL | PASS | Strap now 54 px two-line at MarginV 235, steady from 1.4 s, below top-UI zone (v8_ad1_tile.png). Spoken mention still ~20/22/23 s (by script). |
+| A-7 | Scarcity / refund line | PARTIAL | PARTIAL | Refund still 34 px, but now on screen ≈2.3 s. |
+| A-8 | DOAC captions | PARTIAL | PARTIAL→ mostly PASS | Hard cuts, no stacked lines at 7.5/10.5/25.5 s; "954 38-YEAR-OLD" highlighted (still numeric pair, Claude P1-7 wording not adopted); size still 94 px; VIP/Q&A line still uncaptioned inside the Zoom shot (v8_ad1_zoom.png 1.5–5.5 s); leftover-caption-on-dark-frame fixed. |
+| A-9 | Julie opener / closer, blur-fill | PARTIAL | PARTIAL | Opener still LLA logo on black, silent, 0–~1.0 s; swirl still blur-filled (52.5–53.5 s ad1) but now dissolved in/out and eTeacher card cut to ~0.5 s. |
+| A-10 | PR pop-up | PARTIAL | PARTIAL | Now alpha-faded in/out (smooth). Content still the fake press collage — Claude P0-1 unchanged. |
+| A-11 | Offer card hold | PARTIAL | PASS | Card 5.0 s (54.1–59.1 ad1); SIGN UP NOW visible ≈2.9 s, URL ≈2.5 s (v8_ad1_end.png). |
+| A-13/25 | Larger-than-life / human | PARTIAL | PARTIAL | Speed still 1.12× on ad1/ad3 (subjective, ASSUMED). |
+| A-15 | Scene consistency ad2 | PARTIAL | PARTIAL (unchanged) | Visible framing/head-position jump at ~23.5 s (v8_ad2_seam.png 2.25→2.50). |
+| A-16 | GitHub page | PARTIAL | PASS for the 3 masters | 200 + Content-Length match; page also lists 4x5/75-s files now present (not audited here). |
+| A-18/22 | Smooth transitions | FAIL | PASS | 0.3–0.4 s dissolves opener→UGC, UGC→swirl→card; overlays alpha-faded. |
+| A-19 | Audit completeness | PASS | PASS | v8 logs exist for all three; "Thank you" tail no longer in transcripts (ad1) — still listen once. |
+| A-20 | Output contract / true peak | FAIL (TP) | PASS | TP −2.8/−2.9/−2.8 dBTP, LUFS −14.0…−14.6, durations 59.1/59.1/59.8 (60 ± 1.5 ✔). |
+| A-21 | 45/60/75 × 4 formats | NOT YET | NOT YET | 9 of 36 files exist (3×9x16-60, 3×9x16-75, 2×4x5-60 …); 45-s, 1x1, 16x9 missing. |
+| A-28 | Safe area | PASS | PASS | Strap moved down; Zoom headline still at y≈60–110 (top-UI risk). |
+| C P0-1 | Fake press cards | not fixed | **NOT FIXED** | ad1 30–32 s, ad3 33–35 s. Still the launch blocker. |
+| C P0-2 | Logo-on-black open | not fixed | NOT FIXED | 0–1.0 s. |
+| C P0-4 | "$49. I'm in." after VIP | not fixed | NOT FIXED (audio) | Card clarifies. |
+| C P0-5 | AI disclosure | not fixed | NOT FIXED | Omri decision. |
+| C P1-6 | CTA hold / swirl | partial | PASS | 5-s card, ~2.9 s button. |
+| C P1-7 | "954 38" readability | not fixed | PARTIAL | Highlighted, hyphenated; wording not changed. |
+| C P1-8 | Ad2 join | partial | PARTIAL | Seam at 23.5 s. |
+| C P1-9 | Stacked captions | not fixed | **FIXED** | No double lines in 1.5-s or 4-fps tiles. |
+| C P2-13 | Strap | not fixed | **FIXED** | 54 px, lower, steady. |
+| C P2-11/12/15/16 | numbers / qualifier / "Enroll" / same script | not fixed | NOT FIXED | Deliberate per BRIEF/T22. |
+
+**v8 score (Claude scale):** ad1 ≈ 7/10, ad3 ≈ 7/10, ad2 ≈ 6.5/10 (seam). Remaining blockers before "live": P0-1 fake press collage, AI-disclosure decision, ear-check of "Zealandans" (ad2/ad3) and 1.12× pacing; then the missing 27 format/duration files.
