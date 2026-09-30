@@ -14,6 +14,6 @@
   "UNMATCHED 22.12 'LONGEVITY  MASTERCLASS'"
  ],
  "frame_tile": "/home/user/workspace/ugc-prod-dur/build/ad1-man42__75/tile.jpg",
- "notes": "",
+ "notes": "speed 0.97 (floor per brief); closer 3.6 s (film 127.8-131.4 at 1.0), offer card 8.0 s; xfades 0.3/0.4/0.4. Total 67.4 s = below the 68-75 target: source take is 54.0 s, cannot be stretched further without slowing the voice. ASSUMED acceptable; flagged. Loudness/peak VERIFIED ebur128; language/transcript VERIFIED faster-whisper small.en; frame tile eyeballed.",
  "verified_by": "subagent '45 s and 75 s cuts' (ugc-prod-dur pipeline): ffprobe, ebur128, faster-whisper small.en, caption alignment, frame tile eyeballed"
 }

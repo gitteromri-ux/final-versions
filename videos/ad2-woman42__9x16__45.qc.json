@@ -15,6 +15,6 @@
   "SYNC? 28.33 'SHE'S ONE OF THE' -> 27.92"
  ],
  "frame_tile": "/home/user/workspace/ugc-prod-dur/build/ad2-woman42__45/tile.jpg",
- "notes": "",
+ "notes": "speed 1.045; CUTS [11.25,18.68) + [35.92,42.45); punch-ins as ad1 (source already has a 1.06 baked at 24.0 s); no click (0.001/0.084 vs p99.99 0.20); offer 4.5 s; source = master w42_v2.mp4 re-encoded 18:05 + master words.json. Loudness/peak VERIFIED ebur128; language/transcript VERIFIED faster-whisper small.en; frame tile eyeballed.",
  "verified_by": "subagent '45 s and 75 s cuts' (ugc-prod-dur pipeline): ffprobe, ebur128, faster-whisper small.en, caption alignment, frame tile eyeballed"
 }
