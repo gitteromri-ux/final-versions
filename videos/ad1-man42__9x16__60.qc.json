@@ -1,10 +1,10 @@
 {
- "duration": 60.22,
- "lufs": -14.0,
- "true_peak": -1.2,
+ "duration": 59.1,
+ "lufs": -14.3,
+ "true_peak": -2.8,
  "lang": "en",
- "transcript": "People born the same year can be 33 years apart in biological age. 954 38 -year -old New Zealanders were tested to measure how old their bodies actually were. The youngest in the room was 28, the oldest, 61. Same birth year, 33 years apart. That gap is why I'm going to the longevity master class of the year on October 27th. Everyone is talking about longevity right now, and almost nobody can prove it. Julie Gibson Clark can. In 2023, she was the second slowest aging person on Earth, ahead of Brian Johnson and his $2 million a year. She spends about $100 a month. Her body ages six and a half years every decade, single mom with a full -time job. She's one of the founding teachers at Longevity Life Academy, and she's teaching her exact protocol live on Zoom for one hour. VIP stays for a private Q &A about your own goals. $49, I'm in. Thank you.",
- "captions_matched": "57/59 (2 unmatched = top strap, not speech)",
- "notes": "v5: Higgsfield Seedance 2.5 1080p second half, single continuous male take, no jump-cut, 'one of the founding teachers'. Constant 1.25 s caption offset = opener film (expected).",
- "verified_by": "orchestrator whisper small.en + ebur128 + frame tiles"
+ "transcript": "People born the same year can be 33 years apart in biological age. 954 38-year-old New Zealanders were tested to measure how old their bodies actually were. The youngest in the room was 28. The oldest, 61. Same birth year, 33 years apart. That gap is why I'm going to the longevity master class of the year on October 27th. Everyone is talking about longevity right now and almost nobody can prove it. Julie Gibson Clark can. In 2023, she was the second slowest aging person on earth, ahead of Bryan Johnson and his $2 million a year. She spends about $100 a month. Her body ages six and a half years every decade. Single mom with a full-time job. She's one of the founding teachers at Longevity Life Academy and she's teaching her exact protocol live on Zoom for one hour. VIP stays for a private Q &A about your own goals. $49. I'm in.",
+ "captions_matched": "audit pending (audit_ad1_v8)",
+ "notes": "v8: hard-cut DOAC captions, 954 38-YEAR-OLD, 54px strap, alpha-faded PR/Zoom overlays, dissolves, offer card 5 s, TP -2.8; single continuous Higgsfield take (no jump-cut)",
+ "verified_by": "orchestrator: ebur128, frame tiles, source transcript"
 }
