@@ -8,5 +8,15 @@
   "size": 35881777,
   "lufs": -14.0,
   "true_peak": -1.2
+ },
+ {
+  "file": "ad3-woman51__9x16__60.mp4",
+  "slug": "ad3-woman51",
+  "fmt": "9x16",
+  "dur": "60",
+  "duration": 60.8,
+  "size": 39859036,
+  "lufs": -14.3,
+  "true_peak": -1.4
  }
 ]
