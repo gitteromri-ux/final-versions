@@ -60,6 +60,16 @@
   "true_peak": -1.9
  },
  {
+  "file": "ad2-woman42__16x9__60.mp4",
+  "slug": "ad2-woman42",
+  "fmt": "16x9",
+  "dur": "60",
+  "duration": 59.1,
+  "size": 42054414,
+  "lufs": -13.96,
+  "true_peak": -2.31
+ },
+ {
   "file": "ad2-woman42__1x1__60.mp4",
   "slug": "ad2-woman42",
   "fmt": "1x1",
@@ -108,6 +118,16 @@
   "size": 41935335,
   "lufs": -13.9,
   "true_peak": -1.8
+ },
+ {
+  "file": "ad3-woman51__16x9__60.mp4",
+  "slug": "ad3-woman51",
+  "fmt": "16x9",
+  "dur": "60",
+  "duration": 59.8,
+  "size": 45150972,
+  "lufs": -14.44,
+  "true_peak": -2.03
  },
  {
   "file": "ad3-woman51__1x1__60.mp4",

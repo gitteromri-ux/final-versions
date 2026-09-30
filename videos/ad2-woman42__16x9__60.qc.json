@@ -1,0 +1,25 @@
+{
+ "file": "ad2-woman42__16x9__60.mp4",
+ "duration": 59.1,
+ "lufs": -13.96,
+ "true_peak": -2.31,
+ "lra": 2.9,
+ "lang": "en",
+ "lang_prob": 1,
+ "transcript": "People born the same year can be 33 years apart in biological age. 954 38 -year -old New Zealandans were tested to measure how old their bodies actually were. The youngest in the room was 28, the oldest, 61. Same birth year, 33 years apart. That gap is why I'm going to the Longevity Masterclass of the year on October 27th. Everyone is talking about longevity right now and almost nobody can prove it. Julie Gibson Clark can. In 2023, she was the second slowest aging person on Earth, ahead of Brian Johnson and his $2 million a year. She spends about $100 a month. Her body ages six and a half years every decade. Single mom with a full -time job. She's one of the founding teachers at Longevity Life Academy and she's teaching her exact protocol live on Zoom for one hour. VIP stays for a private Q &A about your own goals. $49. I'm in.",
+ "video": "High,1920,1080,yuv420p,30/1",
+ "captions_matched": "53/55",
+ "max_caption_onset_offset_s": 26.28,
+ "notes": [
+  "caption matcher notes are artefacts: repeated phrases match the first occurrence; whisper splits MASTERCLASS / FULL-TIME / 38-YEAR-OLD; the tail 'I'm in' is heard as 'you' by whisper on all masters too. Eyeballed frame tile: face framed, captions + top strap inside frame.",
+  "UNMATCHED 6.40 '954   38-YEAR-OLD'",
+  "UNMATCHED 7.88 'NEW ZEALANDERS'",
+  "SYNC? 17.50 '33  YEARS APART.' -> 3.16",
+  "SYNC? 28.38 'JULIE   GIBSON   CLARK' -> 27.96",
+  "SYNC? 29.02 'CAN.' -> 2.74",
+  "SYNC? 29.34 'IN  2023,' -> 29.80",
+  "SYNC? 52.13 'I'M IN.' -> 51.48"
+ ],
+ "verified_by": "formats-agent (whisper small.en + ebur128/loudnorm + frame tile eyeballed)",
+ "speed": 1.04
+}
