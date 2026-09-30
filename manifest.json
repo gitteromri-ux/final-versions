@@ -10,6 +10,16 @@
   "true_peak": -1.2
  },
  {
+  "file": "ad2-woman42__9x16__60.mp4",
+  "slug": "ad2-woman42",
+  "fmt": "9x16",
+  "dur": "60",
+  "duration": 60.23,
+  "size": 37222200,
+  "lufs": -13.8,
+  "true_peak": -1.4
+ },
+ {
   "file": "ad3-woman51__9x16__60.mp4",
   "slug": "ad3-woman51",
   "fmt": "9x16",
