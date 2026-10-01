@@ -12,15 +12,15 @@ POS = os.path.join(ROOT, "posters")
 os.makedirs(POS, exist_ok=True)
 
 TITLE = "Julie Masterclass UGC Ads · FINAL VERSIONS"
-ADS = [("ad1-man42", "Ad 1 · 42M", "Man, 42 · one continuous UGC take"),
-       ("ad2-woman42", "Ad 2 · 42F", "Woman, 42 · punch-in at 24 s"),
+ADS = [("ad1-man42", "Ad 1 · 42M", "Man, 42"),
+       ("ad2-woman42", "Ad 2 · 42F", "Woman, 42"),
        ("ad3-woman51", "Ad 3 · 51F", "Woman, 51")]
-DURS = ["45", "60", "75"]
+DURS = ["45", "60", "long"]   # "long" = full take + 6.5 s offer hold; true length is in the cell (no 75 s of speech exists)
 FMTS = [("9x16", "9:16", "1080×1920", 9/16), ("4x5", "4:5", "1080×1350", 4/5),
-        ("1x1", "1:1", "1080×1080", 1.0), ("16x9", "16:9", "1920×1080", 16/9)]
+        ("1x1", "1:1", "1080×1080", 1.0)]   # 16:9 dropped: a 9:16 talking head cannot be cropped to landscape without a >1.8x upscale
 FMT_MAP = {f[0]: f for f in FMTS}
 AD_MAP = {a[0]: a for a in ADS}
-NAME_RE = re.compile(r"^(?P<slug>[a-z0-9-]+)__(?P<fmt>\d+x\d+)__(?P<dur>\d+)$")
+NAME_RE = re.compile(r"^(?P<slug>[a-z0-9-]+)__(?P<fmt>\d+x\d+)__(?P<dur>\d+|long)$")
 
 PRODUCT = [
     ("Product", "The Longevity Masterclass of the Year with Julie Gibson Clark · Longevity Life Academy (by eTeacher Group)"),
@@ -220,14 +220,14 @@ def index(items):
         rows = []
         for d in DURS:
             cells = "".join(cell(items.get((slug, d, f[0])), f) for f in FMTS)
-            rows.append(f"""<div class="durrow"><div class="durlabel"><b>{d}s</b><span>· 4 formats</span></div><div class="cells">{cells}</div></div>""")
-        blocks.append(f"""<section class="ad" id="{slug}"><div class="adhead"><h2>{e(title.split(' · ')[0])} <span>· {e(title.split(' · ')[1])}</span></h2><p>{e(desc)} · {n}/12 delivered</p></div><div class="matrix">{''.join(rows)}</div></section>""")
-    state = f"<b>{total}</b>/36 files live" if total else "<b>0</b>/36 · rendering"
+            rows.append(f"""<div class="durrow"><div class="durlabel"><b>{d}{"" if d == "long" else "s"}</b><span>· 3 formats</span></div><div class="cells">{cells}</div></div>""")
+        blocks.append(f"""<section class="ad" id="{slug}"><div class="adhead"><h2>{e(title.split(' · ')[0])} <span>· {e(title.split(' · ')[1])}</span></h2><p>{e(desc)} · {n}/9 delivered</p></div><div class="matrix">{''.join(rows)}</div></section>""")
+    state = f"<b>{total}</b>/27 files live" if total else "<b>0</b>/27 · rendering"
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     body = f"""{topbar()}
 <div class="hero"><h1>Julie Masterclass UGC Ads<br><em>FINAL VERSIONS</em></h1>
-<p>Three talking-head ads · three lengths · four formats. Every cell is a finished Meta-ready MP4 with burned-in captions, film opener, PR pop-up, Zoom B-roll and the offer closer. Tap a thumbnail to play with sound, or download directly.</p>
-<div class="stats"><div class="stat">{state}</div><div class="stat"><b>{fmt_size(sizes)}</b>total</div><div class="stat"><b>3</b>ads</div><div class="stat"><b>45 · 60 · 75</b>s</div><div class="stat"><b>9:16 · 4:5 · 1:1 · 16:9</b></div></div>
+<p>Three talking-head ads · three lengths · three formats. Every cell is a finished Meta-ready MP4 (24 fps, −14 LUFS) with burned-in DOAC-style captions, 28-vs-61 stat card, real-headline press pop-up, Zoom B-roll and the offer closer. v10 (2026-10-01) addresses the P0/P1 items of the external audit. Tap a thumbnail to play with sound, or download directly.</p>
+<div class="stats"><div class="stat">{state}</div><div class="stat"><b>{fmt_size(sizes)}</b>total</div><div class="stat"><b>3</b>ads</div><div class="stat"><b>45 · 60 · long</b></div><div class="stat"><b>9:16 · 4:5 · 1:1</b></div></div>
 <div class="legend"><span><i style="background:var(--ok)"></i>LUFS within −14 ±1</span><span><i style="background:var(--warn)"></i>LUFS outside target / rendering</span><span>Updated {now}</span></div></div>
 {''.join(blocks)}
 <div class="foot"><b>Spec:</b> {SPEC}<br><b>Offer facts (VERIFIED 2026-09-29):</b> Live on Zoom, 60 min · Tue Oct 27 2026 7 PM ET or Sat Nov 14 2026 1 PM ET · $49 · VIP $79 (+30-min private Q&amp;A, $249 Blueprint credit) · 14-day refund · <a href="https://www.longevitylifeacademy.com/julie-masterclass/" style="color:var(--gold2)">longevitylifeacademy.com/julie-masterclass</a></div>
