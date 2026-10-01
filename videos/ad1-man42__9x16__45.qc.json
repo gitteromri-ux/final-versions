@@ -15,6 +15,6 @@
   "SYNC? 20.15 'JULIE   GIBSON   CLARK' -> 20.66"
  ],
  "frame_tile": "/home/user/workspace/ugc-prod-dur/build/ad1-man42__45/tile.jpg",
- "notes": "speed 1.02; CUTS (orig s) [10.75,18.80) + [35.42,42.15) at sentence-boundary silences; 1.06 punch-in after cut A, 1.06^2 after cut B; 20 ms acrossfade at joins (max sample jump at cuts 0.002/0.039 vs p99.99 0.27 = no click); offer card 4.5 s (anim x1.25); xfade joins. Loudness/peak VERIFIED ebur128; language/transcript VERIFIED faster-whisper small.en; frame tile eyeballed.",
+ "notes": "",
  "verified_by": "subagent '45 s and 75 s cuts' (ugc-prod-dur pipeline): ffprobe, ebur128, faster-whisper small.en, caption alignment, frame tile eyeballed"
 }

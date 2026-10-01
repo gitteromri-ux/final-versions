@@ -16,6 +16,6 @@
   "SYNC? 28.93 'SHE'S ONE OF THE' -> 28.52"
  ],
  "frame_tile": "/home/user/workspace/ugc-prod-dur/build/ad3-woman51__45/tile.jpg",
- "notes": "speed 1.13; CUTS [13.75,24.05) + [41.75,48.12); punch-ins as ad1; no click (0.001/0.012 vs p99.99 0.19); offer 4.5 s. 'AHEAD OF' unmatched only because whisper heard 'the head of' on the final (audio is correct in source). Loudness/peak VERIFIED ebur128; language/transcript VERIFIED faster-whisper small.en; frame tile eyeballed.",
+ "notes": "",
  "verified_by": "subagent '45 s and 75 s cuts' (ugc-prod-dur pipeline): ffprobe, ebur128, faster-whisper small.en, caption alignment, frame tile eyeballed"
 }
