@@ -63,7 +63,7 @@ Premium, brand-exact, on-message, fast. He is paying for third-party tools (Higg
 
 ## 3. Script decisions — the approved hooks (this answers "what were the other books/hooks I approved")
 
-Four hooks were ranked and discussed; **three were explicitly approved by Omri as power claims**, and the first one is approved **word for word and must be used exactly**:
+Omri picked **four hooks** (turn record 2026-09-30 08:16–08:45: "this is good" list + "top 4 ones i chose"); the first one is approved **word for word and must be used exactly**:
 
 **HOOK 1 — APPROVED, EXACT WORDING, MANDATORY OPENER (used in the produced ad)**
 > People born the same year can be 33 years apart in biological age.
@@ -83,7 +83,7 @@ Source: Fitzgerald et al., Aging 2021 ([PMC8064200](https://pmc.ncbi.nlm.nih.gov
 
 Source: [Harvard Gazette](https://news.harvard.edu/gazette/story/2018/04/5-healthy-habits-may-increase-life-expectancy-by-decade-or-more/). Headline must read "up to 14 years" (14 = women, 12 = men).
 
-**HOOK 4 — discussed and liked, phrasing to be re-approved (not produced)**
+**HOOK 4 — picked by Omri in his "this is good" list (not produced); he asked for it framed as movement, not gym**
 > Not moving your body is 5 times deadlier than smoking.
 > Cleveland Clinic followed 122,007 patients from 1991 to 2014. Least fit vs most fit: 5.04x the risk of death. Smoking: 1.41x.
 
@@ -96,7 +96,11 @@ Source: [JAMA Network Open 2018](https://jamanetwork.com/journals/jamanetworkope
 Part 1 (presenter): the approved opener verbatim → "That gap is why I'm going to the Longevity Masterclass of the Year on October 27th."
 Part 2 (presenter): "Everyone's talking about longevity right now, and almost nobody can prove it. Julie Gibson Clark can." → [Julie's own film audio: "I'm Julie Gibson Clark. For over a year I held the number two spot in the world for slowest aging."] → "In 2023 she out-aged Bryan Johnson and his $2 million a year, on about $100 a month. Single mom, full-time job. She's a founding teacher at Longevity Life Academy, and she's teaching her exact protocol live on Zoom, for one hour. Forty-nine dollars. Honestly? I'm in."
 
-**So: 3 hooks approved, 1 ad produced (Hook 1). Hooks 2, 3 and (pending rephrase) 4 are unproduced and are the natural next three videos.**
+**So: 4 hooks picked, 1 produced (Hook 1). Hooks 2, 3 and 4 are unproduced and are the next three videos.**
+
+Other angles in the record (NOT picked, listed so nothing is lost):
+- From the very first 5-script set (rejected as "bad ads" on 2026-09-30 08:04): "It's not your genes" (genes <7%, Ancestry 400M trees — he called it "terrible and not powerful"), "14 extra years" (Harvard), "The last 12 years" (Mayo: Americans spend the last 12.4 years sick, worst on Earth), "80% is preventable" (WHO: 80% of heart disease, stroke, type 2 diabetes).
+- From the 17-stat list (shown, not picked): slow walkers die 22 years earlier; can't stand up from the floor without hands = 11x more likely to die in 12 years; 75-year-olds with 40-year-old hearts; body ages in two jumps at 44 and 60; grip strength predicts death better than blood pressure; only 12% of Americans metabolically healthy; average man's heart 8 years older; 45% of dementia preventable; +1,000 steps = 15% lower death risk; lifestyle cancels 62% of bad-gene risk; 40 push-ups = 96% less heart disease; sauna 4+/week = 40% lower death risk.
 
 ---
 
