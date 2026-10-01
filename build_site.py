@@ -12,7 +12,7 @@ POS = os.path.join(ROOT, "posters")
 os.makedirs(POS, exist_ok=True)
 
 TITLE = "Julie Masterclass UGC Ads · FINAL VERSIONS"
-ADS = [("ad4-woman46", "Julie Masterclass UGC · 75 s", "Woman, 46 · kitchen · American English")]
+ADS = [("ad5-woman46", "Julie Masterclass UGC · 75 s", "Woman, 46 · kitchen · American English")]
 DURS = ["75"]
 FMTS = [("9x16", "9:16", "1080×1920", 9/16), ("1x1", "1:1", "1080×1080", 1.0)]   # 16:9 dropped: a 9:16 talking head cannot be cropped to landscape without a >1.8x upscale
 FMT_MAP = {f[0]: f for f in FMTS}
@@ -223,7 +223,7 @@ def index(items):
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     body = f"""{topbar()}
 <div class="hero"><h1>Julie Masterclass UGC Ads<br><em>FINAL VERSIONS</em></h1>
-<p>v11 · one presenter ad · 75 s max · 9:16 and 1:1. Exact power-claim opener → "The Longevity Masterclass of the Year" strap from frame 0 → Julie herself (real film footage and voice: No. 2 in the world) → her film's No. 2 card and press collage → Zoom-with-50 mockup → Julie's real outro → offer card ($49 · Oct 27 / Nov 14 · Sign Up Now). Medium-wide shot, American-English spec, upbeat build music, huge bold DOAC-style captions throughout, 24 fps hard cuts, −14 LUFS. Tap a thumbnail to play with sound, or download directly. <a href="audit/v11/index.html" style="color:var(--gold2);font-weight:800">→ Audit: every request side by side</a></p>
+<p>v12 · one presenter ad · 75 s · 9:16 and 1:1. Exact power-claim opener → "The Longevity Masterclass of the Year" strap (brand serif) → Julie herself (real film footage and voice: No. 2 in the world) → her film's No. 2 card → your "As seen on" PR logos → Live-on-Zoom mockup → four separate Canva-look end cards (title · Julie · dates · $49) → official LLA ENROLL NOW outro. All cards and captions in the LLA serif / navy / light-blue italic look of your Canva references. American-English spec, upbeat build music, 24 fps, −14 LUFS. Tap a thumbnail to play with sound, or download directly. <a href="audit/v12/index.html" style="color:var(--gold2);font-weight:800">→ Audit: every request side by side</a></p>
 <div class="stats"><div class="stat">{state}</div><div class="stat"><b>{fmt_size(sizes)}</b>total</div><div class="stat"><b>1</b>ad</div><div class="stat"><b>75 s</b></div><div class="stat"><b>9:16 · 1:1</b></div></div>
 <div class="legend"><span><i style="background:var(--ok)"></i>LUFS within −14 ±1</span><span><i style="background:var(--warn)"></i>LUFS outside target / rendering</span><span>Updated {now}</span></div></div>
 {''.join(blocks)}

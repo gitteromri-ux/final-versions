@@ -1,22 +1,22 @@
 [
  {
-  "file": "ad4-woman46__1x1__75.mp4",
-  "slug": "ad4-woman46",
+  "file": "ad5-woman46__1x1__75.mp4",
+  "slug": "ad5-woman46",
   "fmt": "1x1",
   "dur": "75",
-  "duration": 73.3,
-  "size": 43802255,
-  "lufs": -14.0,
+  "duration": 74.96,
+  "size": 39266278,
+  "lufs": -14.3,
   "true_peak": -2.4
  },
  {
-  "file": "ad4-woman46__9x16__75.mp4",
-  "slug": "ad4-woman46",
+  "file": "ad5-woman46__9x16__75.mp4",
+  "slug": "ad5-woman46",
   "fmt": "9x16",
   "dur": "75",
-  "duration": 73.3,
-  "size": 67527467,
-  "lufs": -14.0,
+  "duration": 74.96,
+  "size": 61254622,
+  "lufs": -14.3,
   "true_peak": -2.4
  }
 ]
