@@ -18,5 +18,13 @@
  ],
  "frame_tile": "/home/user/workspace/ugc-prod/build/ad4-woman46__1x1/tile.jpg",
  "notes": "",
- "verified_by": "v10 master pipeline (ugc-prod/assemble.py, 24 fps): ffprobe, ebur128, faster-whisper small.en transcript, caption/onset alignment, frame tile"
+ "verified_by": "v11 pipeline (ugc-prod/assemble75.py, 24 fps): ffprobe, ebur128, faster-whisper transcript, caption/onset alignment, frame tile, CommonAccent classifier",
+ "accent_check": {
+  "model": "Jzuluaga/accent-id-commonaccent_ecapa (SpeechBrain, 16 English accents)",
+  "part1": "us (canada, australia)",
+  "part2": "us (canada, indian)",
+  "control_rejected_take": "australia (newzealand)",
+  "control_julie_real": "us",
+  "note": "ranking check; margins modest"
+ }
 }
