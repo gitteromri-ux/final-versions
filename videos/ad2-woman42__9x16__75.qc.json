@@ -15,6 +15,6 @@
   "SYNC? 31.39 'IN  2023,' -> 31.84"
  ],
  "frame_tile": "/home/user/workspace/ugc-prod-dur/build/ad2-woman42__75/tile.jpg",
- "notes": "speed 0.97; closer 3.6 s, offer 8.0 s; total 67.4 s (same limitation as ad1). Source = master w42_v2.mp4 (18:05 version). Loudness/peak VERIFIED ebur128; language/transcript VERIFIED faster-whisper small.en; frame tile eyeballed.",
+ "notes": "",
  "verified_by": "subagent '45 s and 75 s cuts' (ugc-prod-dur pipeline): ffprobe, ebur128, faster-whisper small.en, caption alignment, frame tile eyeballed"
 }
